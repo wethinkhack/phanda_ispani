@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Home Button -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/home_btn_title"
+        app:drawableTint="@color/black"
+        app:drawableTopCompat="@drawable/home_24px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/home_btn_title"
+        app:drawableTint="@color/black"
+        app:drawableTopCompat="@drawable/home_24px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/home_btn_title"
+        app:drawableTint="@color/black"
+        app:drawableTopCompat="@drawable/home_24px" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/home_btn_title"
+        app:drawableTint="@color/black"
+        app:drawableTopCompat="@drawable/home_24px" />
+
+</LinearLayout>
