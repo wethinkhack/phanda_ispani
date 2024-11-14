@@ -14,6 +14,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.phandaispani.ui.theme.PhandaIspaniTheme
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import androidx.appcompat.app.AppCompatActivity
+import com.bumptech.glide.Glide
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,5 +26,11 @@ class MainActivity : ComponentActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        val gifImageView: ImageView = findViewById(R.id.gifImageView)
+        Glide.with(this)
+            .asGif()
+            .load(R.drawable.load) // Replace with your GIF file name in res/drawable
+            .into(gifImageView)
+
     }
 }

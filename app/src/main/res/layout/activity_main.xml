@@ -18,11 +18,15 @@
         <ImageView
             android:layout_width="1000dp"
             android:layout_height="350dp"
-            android:contentDescription="The logo of the website"
+            android:contentDescription="@string/the_logo_of_the_website"
             android:src="@drawable/logo2"
             android:layout_marginTop="100dp"/>
 
-
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/gifImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/load" />
     </LinearLayout>
 
 

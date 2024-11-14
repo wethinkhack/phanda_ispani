@@ -15,19 +15,21 @@
         android:orientation="vertical"
         tools:ignore="UselessParent">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:text="@string/create_an_account"
-                android:textSize="24sp"
-                android:textColor="#FFFFFF"
-                android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/create_an_account"
+            android:textColor="#FFFFFF"
+            android:paddingRight="200dp"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
-            <TextView
+        <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="50dp"
                 android:text="@string/already_have_an_account"
                 android:textColor="#FFFFFF"
+                android:paddingRight="230dp"
                 android:textSize="14sp" />
 
             <TextView
