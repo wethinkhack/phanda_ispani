@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">Phanda Ispani</string>
     <string name="home_btn_title">Home</string>
+    <string name="remember_me">Remember me</string>
+    <string name="password">Password</string>
+    <string name="email_address">Email address</string>
+    <string name="surname">Surname</string>
+    <string name="name">Name</string>
+    <string name="log_in">Log in</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email_address2">Email address</string>
+    <string name="already_have_an_account2">Already have an account?</string>
+    <string name="welcome_back">Welcome back!</string>
 </resources>
